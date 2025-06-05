@@ -1,13 +1,16 @@
-# Mushroom Classification (UCI Dataset)
+# Mushroom Classification (UCI Dataset) 
 
-Progetto di Machine Learning per classificare funghi come commestibili o velenosi.
+Progetto accademico di Machine Learning per classificare funghi come commestibili o velenosi.
 
-## 📁 Struttura
+### [link al dataset](https://archive.ics.uci.edu/dataset/73/mushroom)
+
+## Struttura
+- `data/`: contiene il dataset mushrooms.csv
 - `src/`: codice modularizzato per preprocessing, modelli, valutazione
 - `main.py`: script principale
-- `data/`: contiene il dataset mushrooms.csv
-
-## ⚙️ Tecniche usate
+- `figures` : grafici dei vari modelli
+- `requirements.txt`: dipendenze del progetto
+## Tecniche usate
 - Label Encoding
 - Train/Test split
 - Standard Scaler
@@ -18,6 +21,6 @@ Progetto di Machine Learning per classificare funghi come commestibili o velenos
   - SVM
 - Confusion Matrix + classification report
 
-## ▶️ Come eseguire
+## Come eseguire
 ```bash
-python main.py
+  python main.py
