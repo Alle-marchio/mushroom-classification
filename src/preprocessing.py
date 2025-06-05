@@ -16,6 +16,8 @@ def load_and_preprocess_data(filepath):
 
     # Rimuovi righe con valori mancanti contrassegnati con '?'
     df = df.replace('?', pd.NA).dropna()
+    # togliendo la colonna 'odor' noto che l'accuratezza del modello cala (odor è una caratteristica importante)
+    # df = df.drop(columns=["odor"])
 
     # Label Encoding
     le = LabelEncoder()
