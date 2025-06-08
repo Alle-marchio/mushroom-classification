@@ -15,6 +15,7 @@ def get_models_and_parameters():
         }),
         'KNN': (KNeighborsClassifier(), {
             'n_neighbors': [3, 5, 7],
+            'p': [1, 2],
             'weights': ['uniform', 'distance']
         }),
         'SVM': (SVC(), {
