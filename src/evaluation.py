@@ -1,7 +1,5 @@
 from sklearn.metrics import accuracy_score, confusion_matrix
 from src.utils import save_confusion_matrix
-import seaborn as sns
-import matplotlib.pyplot as plt
 
 def evaluate_model(model, X_test, y_test,output_dir=None):
     y_pred = model.predict(X_test)
