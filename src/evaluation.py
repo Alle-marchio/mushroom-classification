@@ -1,4 +1,4 @@
-from sklearn.metrics import accuracy_score, confusion_matrix
+from sklearn.metrics import accuracy_score
 from src.utils import save_confusion_matrix
 
 def evaluate_model(model, X_test, y_test,output_dir=None):
